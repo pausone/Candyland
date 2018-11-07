@@ -1,0 +1,47 @@
+<form method="post" action="index.php---$edit_id---" id="products-admin">
+	<table class="vertical-table">
+		<tr>
+			<th>Namn:</th>
+			<td><input type="text" name="product_name" id="product-name" value="---$name---"/></td>
+		</tr>
+		<tr>
+			<th>Pris:</th>
+			<td><input type="text" name="sales_price" value="---$sales_price---"/></td>
+		</tr>
+		<tr>
+			<th>Kategori:</th>
+			<td><input type="text" name="category" value="---$category---"/></td>
+		</tr>
+		<tr>
+			<th>Inköpspris:</th>
+			<td><input type="text" name="original_price" value="---$orig_price---"/></td>
+		</tr>
+		<tr>
+			<th>Bildens filnamn:</th>
+			<td><input type="text" name="image_filename" value="---$filename---"/></td>
+		</tr>
+		<tr>
+			<th>I lager:</th>
+			<td><input type="text" name="in_stock" value="---$in_stock---"/></td>
+		</tr>
+	</table>
+	<p>
+		<input type="submit" value="Spara"/><br /><a href="index.php" class="---$visibility---">Lägg till ny produkt</a>
+	</p>
+</form>
+<!--==xxx==-->
+<div class="product">
+	<img src="images/products/---$filename---" alt="Godis Bild">  
+	<div class="center-div">
+		<p>
+			<a href="index.php?id=---$id---">Ändra</a><br />
+			<strong>Nummer: </strong>---$id---<br />
+			<strong>Namn: </strong>---$name---<br />
+			<strong>Pris: </strong>---$sales_price--- kr<br />
+			<strong>Kategori: </strong>---$category---<br />
+			<strong>Inköpspris: </strong>---$orig_price---<br />
+			<strong>Bildens filnamn: </strong>---$filename---<br />
+			<strong>Lagersaldo</strong><span class="info" data-toggle="tooltip" title="Siffran justeras vid kundens beställning. Kan finnas fler i lager pga ej skickade än."> [?]</span>: ---$in_stock--- st
+		</p>
+	</div>
+</div>

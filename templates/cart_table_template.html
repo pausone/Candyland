@@ -1,0 +1,35 @@
+<h2>I varukorgen</h2> 
+<table>
+	<tr>
+		<th>Namn</th>
+		<th>Antal</th>
+		<th>Lägg till 1 st</th>
+		<th>Ta bort 1 st</th>
+		<th>Ta bort rad</th>
+		<th>Styckpris</th>
+		<th>Summa per post</th>
+	</tr> 
+	<!--==xxx==-->
+	<tr>
+		<td>---$name---</td>
+		<td>---$quantity--- st</td>
+		<td><a href="update_cart.php?id=---$id---&action=add">+1</a></td>
+		<td><a href="update_cart.php?id=---$id---&action=sub">-1</a></td>
+		<td><a href="update_cart.php?id=---$id---&action=del">Ta bort rad</a></td>
+		<td>---$sales_price--- kr</td>
+		<td>---$sum_post--- kr</td>
+	</tr>
+  <!--==xxx==-->
+	<tr class="sum-row">
+		<td>Totalt:</td>
+		<td></td>
+		<td></td>		
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>---$sum--- kr</td>
+	</tr>
+</table>
+	<p>
+<a href="create_order.php" class="link-btn">Beställ</a>	</p>
+

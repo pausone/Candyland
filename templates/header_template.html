@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="sv">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>
+			CANDYLAND
+		</title>		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>		
+		<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="scripts/script.js"></script>
+	</head>
+	<body>
+		<div id="container">
+		<header>
+			<h1 id="logo-text"><a id="logo-link" href="index.php">Candyland</a></h1>				
+		</header>
+		<div class="nav">
+			<a href="index.php" class="left">Hem</a>
+			<div id="cart" class="left---$customer---">
+				<div id="cartbtn" class="navbtn">Varukorg</div>
+				<div id="cartcontent" class="dropdown">
+					<!--==xxx==-->
+					---$quantity--- st ---$item---<br />
+					<!--==xxx==-->	
+					<div class="---$shop---">
+						<hr>
+						<a href="shop.php">Till kassan</a>
+						<hr>
+						<a href="empty_cart.php">Töm varukorgen</a>
+					</div>
+				</div>
+			</div>
+			<a href="subscribe.php" class="left---$customer---">Nyheter</a>
+			<div id="admin" class="left---$admin---">
+				<div id="adminbtn" class="navbtn">Admin</div>
+				<div id="admincontent" class="dropdown">
+					<a href="in_stock.php">Lagersaldo</a><br/><hr>				
+					<a href="view_orders.php">Ordrar</a><br/><hr>
+					<a href="customers.php">Kunder</a><br/><hr>
+					<a href="finance.php">Ekonomi</a><br/><hr>
+					<a href="email_list.php">Epost-lista</a>
+				</div>
+			</div>
+			<a href="---$login_out---?redirect_after_login=index.php" class="right">---$login_out_option---</a>
+		</div>
+		<div id="main">

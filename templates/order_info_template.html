@@ -1,0 +1,68 @@
+<h3>Orderinformation</h3>
+<table>
+	<tr>
+		<th>Order-id:</th>
+		<td>---$order_id---</td>
+	</tr>
+	<tr>
+		<th>Kund-id:</th>
+		<td>---$user_id---</td>
+	</tr>
+	<tr>
+		<th>Beställningsdatum:</th>
+		<td>---$order_date---</td>
+	</tr>
+	<tr>
+		<th>Skickat: (<a href="change_order_status.php?order=---$order_id---">Ändra</a>)</th>
+		<td>---$sent---</td>
+	</tr>
+</table>
+
+<h3>Beställda produkter</h3> 
+<table>
+	<tr>
+		<th>Namn</th>
+		<th>Antal</th>
+		<th>Styckpris</th>
+		<th>Summa per post</th>
+	</tr> 
+	<!--==xxx==-->
+	<tr>
+		<td>---$name---</td>
+		<td>---$quantity--- st</td>
+		<td>---$sales_price--- kr</td>
+		<td>---$sum_post--- kr</td>
+	</tr>
+  <!--==xxx==-->
+	<tr class="sum-row">
+		<td>Totalt:</td>
+		<td></td>
+		<td></td>
+		<td>---$sum--- kr</td>
+	</tr>
+</table>
+ <!--==xxx==-->
+<h3>Kundinformation</h3>
+ <table>
+	<tr>
+		<th>Förnamn:</th>
+		<td>---$first_name---</td>
+	</tr>
+	<tr>
+		<th>Efternamn:</th>
+		<td>---$last_name---</td>
+	</tr>
+	<tr>
+		<th>Adress:</th>
+		<td>---$adress---</td>
+	</tr>
+	<tr>
+		<th>Postnummer:</th>
+		<td>---$postal---</td>
+	</tr>
+	<tr>
+		<th>Stad:</th>
+		<td>---$city---</td>
+	</tr>
+</table>
+<a href="view_orders.php">Tillbaka till Ordrar</a>
