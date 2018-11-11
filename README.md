@@ -1,7 +1,7 @@
 # Candyland
-###Screenshots
-![Image login](/screenshots/index.png)
+##Screenshots
+![Image login](/screenshots/index.png)  
 Index page
 
-![Image login](/screenshots/cart_dropdown.png)
+![Image login](/screenshots/cart_dropdown.png)  
 Added items show in dropdown
