@@ -3,7 +3,6 @@
 | ![Image login](/screenshots/index.png) | 
 | ------------- | 
 | Index page| 
-<hr>  
 
 | ![Image login](/screenshots/cart_dropdown.png)   | 
 | ------------- | 
