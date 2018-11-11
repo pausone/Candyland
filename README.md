@@ -7,3 +7,7 @@
 | ![Image login](/screenshots/cart_dropdown.png)   | 
 | ------------- | 
 | Added items show in dropdown| 
+
+| ![Image login](/screenshots/newsletter.png)   | 
+| ------------- | 
+| TBD| 
