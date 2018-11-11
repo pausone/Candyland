@@ -1,5 +1,5 @@
 # Candyland
-##Screenshots
+## Screenshots
 ![Image login](/screenshots/index.png)  
 Index page
 
