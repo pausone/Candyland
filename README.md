@@ -6,13 +6,7 @@ This website has been made using C#.NET, MVC, Entity Framework and Bootstrap.
 
 ###Screenshots using Chrome
 ![Image login](/screenshots/index.png)
-Log in or register as a new user (authentication to be added for real use).
-
-![Image login](/screenshots/index.png)
-View your tests (on Start page and via dropdown menu). Add a test via menu.
+Index page
 
 ![Image login](/screenshots/dropdown.png)
-Create a new test.
-
-![Image login](/screenshots/dropdown.png)
-View test details including questions. Here you can start your test, edit subject, add questions, delete test, edit questions and delete questions.
+Added items show in dropdown
