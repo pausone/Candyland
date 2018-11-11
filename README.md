@@ -43,7 +43,7 @@
 | ------------- | 
 | Dropdown menu for admin| 
 
-| ![Image login](/screenshots/lagersaldo.png)   | 
+| ![Image login](/screenshots/in_stock.png)   | 
 | ------------- | 
 | Handle and check products in stock| 
 
